@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sheens - Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="brr.css">
+        <link rel="website icon" type="png" href="https://i.pinimg.com/originals/58/da/a0/58daa0363813e9a44565a5adb4ceae67.png">
+    </head>
+    <body>
+        <!--Navbar areas!-->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="C:\Sheen-school\brandnewindex.html">Sheen</a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="C:\Sheen-school\NEWESTindex.html">Home</a> </li>
+                    <li><a href="C:\Sheen-school\about me.html">About</a> </li>
+                    <li><a href="C:\Sheen-school\outputs.html.html">Outputs</a> </li>
+                    <li><a href="C:\Sheen-school\shsh.html">Schedule</a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--sumn specials-->
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+            
+                <div class="slide first">
+                    <img src="https://i.pinimg.com/736x/32/6a/66/326a665c13bd5fc06a16bf88172595fa.jpg" alt="">
+                </div>
+                <div class="slide">
+                     <img src="https://i.pinimg.com/736x/fb/0a/35/fb0a35b7dce385007cf583dc381e45c2.jpg" alt="">
+                </div>
+            <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn1"></div>
+            </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 2){
+                    counter = 1;
+                }
+            }, 5000);
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/67/16/43/671643426f6e8e8e4c92f0cc720fff1d.jpg);
+ }
+ /* Navbar styles */
+ .navbar {
+    background: rgb(211, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 30;
+    width: 98%;
+    z-index: 1000;
+}
+.logo a {
+    font-family: Arial, Helvetica;
+    font-size: 35px; 
+    font-weight: 600; 
+    color: rgb(255, 255, 255);
+}
+li {
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; margin: 15px;     
+}
+.button-container {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+button {
+    background-color: white; 
+    margin-left: 10px;
+    border-radius: 10px; 
+    padding: 3px; 
+    width: 225px;
+}
+button a {
+    color: rgb(117, 218, 97); 
+    font-size: 15px; 
+    font-weight: bold; 
+}
+
+.content {
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.me{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: rgb(236, 58, 58);
+    color: white;
+    cursor: pointer;
+    width: 400px;
+    position: relative;
+    right: 100px;
+    text-align: center;
+}
+
